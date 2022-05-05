@@ -34,6 +34,7 @@ function submitForm(event){
   displaySent.innerHTML += `<div class="message"> your Massage has been sent</div>`;
 
   form.reset();
+  event 
 }
 
 form.addEventListener("submit", submitForm);
