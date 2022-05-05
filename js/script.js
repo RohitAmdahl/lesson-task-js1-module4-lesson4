@@ -18,7 +18,7 @@ function validData() {
   if (checklength(firstName.value, 1) && checklength(lastName.value, 4) && validDataMail(email.value)) {
       button.disabled = false;
   } else {
-      message.innerHTML = "";
+      message.innertext = "";
       button.disabled = true;
   }
 }
